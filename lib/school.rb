@@ -23,6 +23,7 @@ def sort
   sorted = {}
   @roster.map do |key, value|
     sorted[key] << value.sort
+    pry
   end
   sorted
 end
