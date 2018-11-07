@@ -25,7 +25,7 @@ def sort
     sorted[key]
     sorted[key] << value.sort
   end
-
+  sorted
 end
 
 
