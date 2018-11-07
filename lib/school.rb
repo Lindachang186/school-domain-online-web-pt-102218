@@ -25,7 +25,7 @@ def sort
     sorted[key] << value.sort
     binding.pry
   end
-  sorted
+  return sorted
 end
 
 
