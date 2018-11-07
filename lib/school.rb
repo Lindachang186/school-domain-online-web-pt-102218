@@ -20,10 +20,12 @@ def grade(grade)
 end
 
 def sort
+  sorted = {}
   @roster.map do |key, value|
+    sorted[key]
     value.sort
   end
-  @roster
+
 end
 
 
