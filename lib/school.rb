@@ -24,7 +24,6 @@ def sort
     value.sort
     binding.pry
   end
-  @roster
 end
 
 
