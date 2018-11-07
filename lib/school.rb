@@ -22,6 +22,7 @@ end
 def sort
   @roster.map do |key, value|
     value.sort
+    binding.pry
   end
   @roster
 end
