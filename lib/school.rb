@@ -22,7 +22,6 @@ end
 def sort
   sorted = {}
   @roster.map do |key, value|
-    sorted[key]
     sorted[key] << value.sort
   end
   sorted
